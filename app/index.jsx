@@ -1,0 +1,33 @@
+import Tenant from "./Tenant";
+//import Navbar from "./Navbar";
+import EmployeeDashboard from "./EmployeeDashboard";
+import Login from "./Login";
+//import MyColleagues from "./MyColleagues";
+import OrganizationChart from "./OrganizationChart";
+//import Tasks from "./TaskManagement";
+import LeaveEmployee from "./LeaveManagement/LeaveEmployee";
+import LeaveForm from "./LeaveManagement/LeaveForm";
+import EmployeeTimesheet from "./TimeSheet/EmployeeTimesheet";
+import ProjectCard from "./Projects/ProjectCard";
+import Projects from "./Projects/Projects";
+import MyProfile from "./Employee/MyProfile";
+import Cookies from "./Cookies/Cookies";
+import LeaveAdmin from "./LeaveManagement/LeaveAdmin";
+import LeaveManagement from "./LeaveManagement/LeaveManagement";
+import ContactUs from "./ContactUs/ContactUs";
+import Plan from "./MyPlan/Plan";
+import DocumentCard from "./Compliance/DocumentCard";
+import EmployeeCompliance from "./Compliance/EmployeeCompliance";
+import AdminCompliance from "./Compliance/AdminCompliance";
+import ComplianceManagement from "./Compliance/ComplianceManagement";
+import EmployeePensionDetails from "./Compliance/EmployeePensionDetails";
+import InvoiceDashboard from "./Invoice/InvoiceDashboard";
+import AddInvoice from "./Invoice/AddInvoice";
+import TimesheetManagement from "./TimeSheet/TimesheetManagement";
+import AdminTimesheet from "./TimeSheet/AdminTimesheet";
+import AssignedTasks from "./Tasks/AssignedTasks";
+import AuthLoading from "./AuthLoading";
+
+export default function Index() {
+  return <EmployeeDashboard /> ;
+};
