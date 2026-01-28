@@ -29,5 +29,5 @@ import AssignedTasks from "./Tasks/AssignedTasks";
 import AuthLoading from "./AuthLoading";
 
 export default function Index() {
-  return <EmployeeDashboard /> ;
+  return <AuthLoading /> ;
 };
